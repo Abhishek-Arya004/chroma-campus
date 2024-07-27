@@ -53,5 +53,14 @@ public class BASIC {
 		System.out.println("This is first TestNG3 code");
 		
 	}
+	
+	@Test
+	
+public void test4() {
+		
+		
+		System.out.println("This is first TestNG3 code-4");
+		
+	}
 
 }
