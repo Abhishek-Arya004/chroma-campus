@@ -62,5 +62,12 @@ public void test4() {
 		System.out.println("This is first TestNG3 code-4");
 		
 	}
+	
+public void test5() {
+		
+		
+		System.out.println("This is first TestNG3 code-5");
+		
+	}
 
 }
