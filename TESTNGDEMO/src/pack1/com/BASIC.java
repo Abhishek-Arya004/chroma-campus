@@ -64,5 +64,12 @@ public void test4() {
 	}
 	
 
-
+	
+public void test6() {
+		
+		
+		System.out.println("This is first TestNG3 code-6");
+		
+	}
+	
 }
