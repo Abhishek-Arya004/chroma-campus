@@ -1,11 +1,13 @@
 package testCase;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+//import log4jDemo.LOG4JDEMO;
 import utils.ReadConfig;
 
 public class BaseClass {
@@ -31,7 +33,7 @@ public class BaseClass {
 
 		driver = new ChromeDriver();
 
-	///	log = Logger.getLogger()
+	log =LogManager.getLogger(BaseClass.class.getName());
 
 		// propertyconfigurator.configure("Log4j.properties");
 
